@@ -12,9 +12,10 @@ def lcm(a, b):
 def getTotalX(a, b):
     lcm_num = a[0]
     gcd_num = b[0]
+
     if len(a) > 1:
         for x in range(1,len(a)):
-            lcm_num =  (lcm_num * a[x])/gcd(lcm_num,a[x])
+            lcm_num =  (lcm_num * a[x])//gcd(lcm_num,a[x])
     if len(b) > 1:
         for x in range(1,len(b)):
             gcd_num = gcd(gcd_num,b[x])
@@ -25,10 +26,9 @@ def getTotalX(a, b):
     return count
 
 # main
-if __name__ == "__main__":
-    n, m = input().strip().split(' ')
-    n, m = [int(n), int(m)]
-    a = map(int, input().strip().split(' '))
-    b = map(int, input().strip().split(' '))
-    total = getTotalX(a, b)
-    print(total)
+n, m = input().strip().split(' ')
+n, m = [int(n), int(m)]
+a = list(map(int, input().strip().split(' ')))
+b = list(map(int, input().strip().split(' ')))
+total = getTotalX(a, b)
+print(total)
