@@ -1,11 +1,9 @@
-test_cases = int(input())
 
-for _ in range(test_cases):
-    n, m, s = map(int, input().split())
+t = int(input())
 
-    while m > 0:
-        m -= 1
-        s = n if s > n else s + 1
-
-    s = n if s < 1 else s - 1
-    print(s)
+for _ in range(t):
+	n, m, s = map(int, input().split())
+	l = (s - 1 + m) % n
+	if l == 0:
+		l = n
+	print(l)
