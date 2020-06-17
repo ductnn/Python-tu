@@ -20,20 +20,14 @@ def jumpingOnClouds(c, k):
             e=energy
         i+=k
     return energy
-    
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
-    nk = input().split()
 
-    n = int(nk[0])
+nk = input().split()
+n = int(nk[0])
+k = int(nk[1])
+c = list(map(int, input().rstrip().split()))
 
-    k = int(nk[1])
+result = jumpingOnClouds(c, k)
 
-    c = list(map(int, input().rstrip().split()))
+print(str(result) + '\n')
 
-    result = jumpingOnClouds(c, k)
-
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
