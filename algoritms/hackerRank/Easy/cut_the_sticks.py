@@ -8,7 +8,7 @@ import sys
 
 # Complete the cutTheSticks function below.
 def cut_sticks(sticks):
-    	count = 0
+    count = 0
 	if sticks:
 		small_stick = min(sticks)
 	else:
