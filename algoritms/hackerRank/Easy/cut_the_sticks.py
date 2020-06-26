@@ -19,7 +19,7 @@ def cut_sticks(sticks):
 		new_element = element - small_stick
 		if new_element != 0:
 			new_sticks.append(new_element)
-	print count 
+	print(count) 
 	cut_sticks(new_sticks)
 		
 if __name__ == '__main__':
