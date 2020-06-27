@@ -17,9 +17,7 @@ def encryption(s):
     return output
 
 
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-    s = input()
-    result = encryption(s)
-    fptr.write(result + '\n')
-    fptr.close()
+
+s = input()
+result = encryption(s)
+print(result + '\n')
