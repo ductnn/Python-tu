@@ -2,12 +2,13 @@
 
 import math
 import os
+import sys
 
 # complete the encryption function below.
 def encryption(s):
     L = len(s)
-    rows = int(math.floor(L**(0.5)))
-    columns = int(math.ceil(L**(0.5)))
+    rows = int(math.floor(math.sqrt(L)))
+    columns = int(math.ceil(math.sqrt(L)))
     output = ""
     for i in range(columns):
         k = i
