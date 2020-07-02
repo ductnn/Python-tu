@@ -14,15 +14,9 @@ def repeatedString(s, n):
     x2=s[:n%(len(s))].count('a')
     return x1+x2
 
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+s = input()
+n = int(input())
+result = repeatedString(s, n)
 
-    s = input()
+print(str(result) + '\n')
 
-    n = int(input())
-
-    result = repeatedString(s, n)
-
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
