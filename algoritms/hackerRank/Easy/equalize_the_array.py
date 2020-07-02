@@ -21,15 +21,10 @@ def equalizeArray(arr):
     max_val=max(G, key=G.get)
     return (len(arr)-G[max_val])
 
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
-    n = int(input())
+n = int(input())
+arr = list(map(int, input().rstrip().split()))
+result = equalizeArray(arr)
 
-    arr = list(map(int, input().rstrip().split()))
+print(str(result) + '\n')
 
-    result = equalizeArray(arr)
-
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
