@@ -34,7 +34,7 @@ def dynamicArray(n, queries):
             size = y % (len(seq[index]))
             lastAnswer = seq[index][size]
     
-    return lastAnswer
+            return lastAnswer
 
 if __name__ == '__main__':
     first_multiple_input = input().rstrip().split()
@@ -48,8 +48,10 @@ if __name__ == '__main__':
     for _ in range(q):
         queries.append(list(map(int, input().rstrip().split())))
 
-    result = dynamicArray(n, queries)
+        result = dynamicArray(n, queries)
+    
+        print(result)
 
-    print('\n'.join(map(str, result)))
-    print('\n')
+    # print('\n'.join(map(str, result)))
+    # print('\n')
 
