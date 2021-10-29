@@ -1,2 +1,12 @@
+# Common
 __pycache__
-sum.py
+
+*venv
+
+# Terraform
+*.tfvars
+*.tfstate
+*.tfstate.backup
+*.terraform
+*.terraform.lock.hcl
+*.terraform.tfstate.lock.info
