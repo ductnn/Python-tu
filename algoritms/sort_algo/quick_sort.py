@@ -39,3 +39,4 @@ if __name__ == "__main__":
     random_arr = [5, 2, 1, 8, 4, 9, 100, 2]
     quick_sort(random_arr)  
     print(random_arr)
+
