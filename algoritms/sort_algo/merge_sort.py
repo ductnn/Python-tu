@@ -43,3 +43,4 @@ def merge(left, right):
 random_arr = [5, 2, 1, 8, 4]  
 random_arr = merge_sort(random_arr)  
 print(random_arr)
+
