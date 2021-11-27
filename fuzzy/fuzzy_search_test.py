@@ -1,4 +1,4 @@
-from exception_test import ErrorException
+from exception_test import FoundedException
 
 
 def fuzzy_search(needle, haystack):
@@ -17,9 +17,9 @@ def fuzzy_search(needle, haystack):
             while j < haystack_len - 1:
                 j += 1
                 if haystack[j] == nch:
-                    raise ErrorException()
+                    raise FoundedException()
             return False
-        except ErrorException:
+        except FoundedException:
             pass
 
     return True

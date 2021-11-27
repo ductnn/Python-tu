@@ -1,2 +1,2 @@
-class ErrorException(Exception):
+class FoundedException(Exception):
     pass
