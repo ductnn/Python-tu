@@ -1,8 +1,7 @@
----
-title: Python 🐍🐍🐍
----
+# My Python
 
-# Python
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/ductnn/Python-tu/pulls)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 ## Control Flow
 1. if Statements
@@ -292,4 +291,11 @@ person = Person()
 4. Syntax basic_2
 5. Network automation
 
-### Follow [me](https://github.com/ductnn)
+## Show your support
+Give a ⭐ if you like this repo ❤️
+
+## Contribution
+All contributions are welcomed in this project.
+
+## License
+The MIT License (MIT). Please see [LICENSE](LICENSE) for more information.
