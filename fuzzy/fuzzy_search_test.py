@@ -5,7 +5,6 @@ def swap(a, b):
     a, b = b, a
 
 
-# levenshtein distance
 def levenshtein_distance(str1, str2):
     str1_len = len(str1)
     str2_len = len(str2)
@@ -51,6 +50,3 @@ def fuzzy_search(needle, haystack):
             pass
 
     return True
-
-
-# https://github.com/imalic3/levenshtein-distance-python/blob/master/levenshtein_distance.py
