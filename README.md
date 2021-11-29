@@ -3,6 +3,15 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/ductnn/Python-tu/pulls)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
+```sh
+    ____        __  __                      __
+   / __ \__  __/ /_/ /_  ____  ____        / /___  __
+  / /_/ / / / / __/ __ \/ __ \/ __ \______/ __/ / / /
+ / ____/ /_/ / /_/ / / / /_/ / / / /_____/ /_/ /_/ /
+/_/    \__, /\__/_/ /_/\____/_/ /_/      \__/\__,_/
+      /____/
+```
+
 ## Control Flow
 1. if Statements
     * Cấu trúc điều kiện if...else 
