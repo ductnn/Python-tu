@@ -1,7 +1,9 @@
 # Common
 __pycache__
-
+*build
+*dist
 *venv
+*.egg-info
 
 # Terraform
 *.tfvars
